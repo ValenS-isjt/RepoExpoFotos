@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import Colors from "../../app/styles/colors";
 
 const styles = StyleSheet.create({
   buttonContainer: {
@@ -20,6 +21,20 @@ const styles = StyleSheet.create({
   buttonLabel: {
     color: "#fff",
     fontSize: 16,
+  },
+  buttonIcon: {
+    paddingRight: 8,
+  },
+  primaryButtonContainer: {
+    borderWidth: 4,
+    borderColor: Colors.Secundario,
+    borderRadius: 18,
+  },
+  primaryButton: {
+    backgroundColor: "#fff",
+  },
+  primaryLabel: {
+    color: Colors.Fondo,
   },
 });
 
